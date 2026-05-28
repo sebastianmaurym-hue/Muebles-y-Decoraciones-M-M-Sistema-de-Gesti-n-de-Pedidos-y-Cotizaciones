@@ -1,0 +1,133 @@
+{
+    "clientes": [
+        {
+            "nombre": "Sebastian Muñoz",
+            "id": "1789000000",
+            "domicilio": "cra 5",
+            "correo": "sebas@gmail.com",
+            "telefono": "302",
+            "usuario": "Smau",
+            "contraseña": "1234"
+        },
+        {
+            "nombre": "Sebastian",
+            "id": "10455291",
+            "domicilio": "cra. 30",
+            "correo": "sebastian@gmail.com",
+            "telefono": "302598167",
+            "usuario": "sebastian24",
+            "contraseña": "1234"
+        }
+    ],
+    "trabajadores": [
+        {
+            "nombre": "Pedro Gomez",
+            "id": "1900000000",
+            "sueldo": 170000,
+            "usuario": "Pgomez",
+            "contraseña": "1234",
+            "rol": "carpintero"
+        },
+        {
+            "nombre": "Juan Torres",
+            "id": "1800000000",
+            "sueldo": 130000,
+            "usuario": "Jtorres",
+            "contraseña": "1234",
+            "rol": "pintor"
+        },
+        {
+            "nombre": "Sebastian Maury",
+            "id": "1700000000",
+            "sueldo": 140000,
+            "usuario": "Smaury",
+            "contraseña": "1234",
+            "rol": "tapizador"
+        }
+    ],
+    "administradores": [
+        {
+            "nombre": "Camilo Mercado",
+            "id": "1500000000",
+            "sueldo": 250000,
+            "usuario": "Cmercado",
+            "contraseña": "1234"
+        }
+    ],
+    "coordinadores": [
+        {
+            "nombre": "Sebastian Martinez",
+            "id": "1600000000",
+            "sueldo": 200000,
+            "usuario": "Smartinez",
+            "contraseña": "1234"
+        }
+    ],
+    "productos": [
+        {
+            "nombre": "Mesa de comedor",
+            "precio": 3490000,
+            "tapizado": false
+        },
+        {
+            "nombre": "Juego de mesas",
+            "precio": 2490000,
+            "tapizado": false
+        },
+        {
+            "nombre": "Silla decorativa",
+            "precio": 1400000,
+            "tapizado": true
+        },
+        {
+            "nombre": "Banca",
+            "precio": 350000,
+            "tapizado": true
+        },
+        {
+            "nombre": "Mueble de tv sencillo",
+            "precio": 2100000,
+            "tapizado": false
+        },
+        {
+            "nombre": "Mecedora",
+            "precio": 2000000,
+            "tapizado": true
+        },
+        {
+            "nombre": "Mesita de noche",
+            "precio": 400000,
+            "tapizado": false
+        }
+    ],
+    "pedidos": [
+        {
+            "cliente": "sebastian24",
+            "producto": "Mesa de comedor",
+            "madera": "roble",
+            "pintura": "negro",
+            "estado": "pendiente",
+            "descripcion": "",
+            "id": 1
+        },
+        {
+            "cliente": "sebastian24",
+            "producto": "Silla decorativa",
+            "madera": "pino",
+            "pintura": "natural",
+            "estado": "pendiente",
+            "descripcion": "",
+            "id": 2
+        },
+        {
+            "cliente": "Smau",
+            "producto": "Banca",
+            "madera": "cerezo",
+            "pintura": "rojo",
+            "estado": "pendiente",
+            "descripcion": "",
+            "id": 3
+        }
+    ],
+    "contador_pedidos": 4
+}
